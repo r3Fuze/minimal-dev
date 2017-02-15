@@ -1,0 +1,9 @@
+{
+  "name": "minimal-dev",
+  "version": "1.0.0",
+  "keywords": ["minimal"],
+  "description": "Minimal development environment",
+  "main": "index.js",
+  "author": "Morten Lindhardt <r3fuze@gmail.com>",
+  "license": "MIT"
+}
