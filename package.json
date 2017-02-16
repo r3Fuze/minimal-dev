@@ -18,13 +18,12 @@
   "scripts": {
     "test": "xo && ava",
     "dev": "xo && ava --watch",
-    "xo": "xo",
-    "ava": "ava"
+    "precommit": "xo && ava"
   },
   "devDependencies": {
     "ava": "^0.18.1",
     "concurrently": "^3.3.0",
-    "precommit-hook": "^3.0.0",
+    "git-pre-commit": "^2.1.3",
     "xo": "^0.17.1"
   },
   "xo": {
