@@ -18,8 +18,8 @@
   "scripts": {
     "test": "xo && ava",
     "dev": "xo && ava --watch",
-    "lint": "jshint .",
-    "validate": "npm ls"
+    "xo": "xo",
+    "ava": "ava"
   },
   "devDependencies": {
     "ava": "^0.18.1",
