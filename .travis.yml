@@ -14,5 +14,7 @@ after_success:
 # send email notifications
 notifications:
     email:
+        on_success: always
+        on_failure: always
         recipients:
             - r3fuze@gmail.com
