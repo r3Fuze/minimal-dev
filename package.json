@@ -1,9 +1,47 @@
 {
   "name": "minimal-dev",
   "version": "1.0.0",
-  "keywords": ["minimal"],
+  "keywords": [
+    "minimal"
+  ],
   "description": "Minimal development environment",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/fuz/minimal-dev"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/fuz/minimal-dev/issues"
+  },
   "author": "Morten Lindhardt <r3fuze@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && ava",
+    "dev": "xo && ava --watch",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "concurrently": "^3.3.0",
+    "precommit-hook": "^3.0.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 4,
+    "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "spaced-comment": "off",
+      "ava/no-todo-test": "off"
+    }
+  },
+  "dependencies": {},
+  "pre-commit": [
+    "xo",
+    "ava"
+  ]
 }
