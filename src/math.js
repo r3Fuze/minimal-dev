@@ -1,5 +1,9 @@
 /* eslint-disable no-unused-vars */
 
+function doStuff() {
+    console.log("Done stuff")
+}
+
 export const add = (a, b) => {
     return a + b
 }
