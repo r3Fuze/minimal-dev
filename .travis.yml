@@ -2,5 +2,8 @@ language: node_js
 node_js:
   - "node"
 cache: yarn
+notifications:
+    webhooks:
+        - https://discordapp.com/api/webhooks/281867852913442817/Le8AepYznXwXtcmcLiZp50WLWopfmP66MsJTXBwPhMjx9kr6NVmMG66iUTRnekRBzFC9
 after_success:
     - "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
