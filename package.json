@@ -8,10 +8,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/fuz/minimal-dev"
+    "url": "https://github.com/r3Fuze/minimal-dev"
   },
   "bugs": {
-    "url": "https://gitlab.com/fuz/minimal-dev/issues"
+    "url": "https://github.com/r3Fuze/minimal-dev/issues"
   },
   "author": "Morten Lindhardt <r3fuze@gmail.com>",
   "license": "MIT",
