@@ -36,6 +36,10 @@ describe("Pokemon module", it => {
             expect(randomNames).to.be.an("array")
             expect(randomNames).to.not.be.empty
             expect(randomNames).to.have.lengthOf(3)
+
+            randomNames.forEach(name => {
+                expect(pokemon.data).to.include(name)
+            })
         })
 
         it("should throw an error if passed something other than a number", () => {
