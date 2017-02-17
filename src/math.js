@@ -11,7 +11,7 @@ export const add = (a, b) => {
 }
 
 /**
- * Subtracts two numbers
+ * Subtract two numbers
  * @param  {Number} a The first number
  * @param  {Number} b The second number
  * @return {Number}   The result of subtracting the two numbers
