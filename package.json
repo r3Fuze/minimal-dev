@@ -17,7 +17,6 @@
   "license": "MIT",
   "scripts": {
     "test": "xo && nyc ava",
-    "test2": "xo && ava",
     "dev": "xo && ava --watch --verbose",
     "precommit": "xo && ava",
     "build": "cross-env BABEL_ENV=production placeholder-build",

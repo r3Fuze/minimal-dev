@@ -10,6 +10,12 @@ const getRandomItem = uniqueRandom(data)
  */
 export const all = () => data
 
+/**
+ * Get a random Pokémon name or multiple if 'count' is passed
+ * @param  {Number} [count] The amount of names to generate
+ * @throws Will throw an error if count is not a number
+ * @return {String|Array}   A single name or Array of names if 'count' is passed
+ */
 export const random = count => {
     if (count === undefined) {
         return getRandomItem()
