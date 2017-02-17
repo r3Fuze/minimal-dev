@@ -69,6 +69,7 @@
       "spaced-comment": "off",
       "object-curly-spacing": "off",
       "no-unused-expressions": "off",
+      "no-else-return": "off",
       "import/prefer-default-export": "off",
       "import/default": "off",
       "ava/no-todo-test": "off",
@@ -83,5 +84,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
   }
 }
