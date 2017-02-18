@@ -26,12 +26,5 @@ $ yarn install
 
 > Tell contributors how to use it.
 
-## Changelog
-
-> Write here a link for your `CHANGELOG` file. It's also commonly called `HISTORY`.
-
 ## License
-
-> Include a refence for the license you chose. For this project my take was the **Public License**. More licenses [here](http://creativecommons.org).
-
 MIT © [Morten Lindhardt](https://github.com/r3fuze)
