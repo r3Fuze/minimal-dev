@@ -26,6 +26,9 @@
     "report": "nyc report --reporter=html",
     "commit": "git-cz"
   },
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  },
   "devDependencies": {
     "ava": "^0.18.1",
     "ava-spec": "^1.1.0",
@@ -86,8 +89,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "unique-random-array": "^1.0.0"
   }
 }
