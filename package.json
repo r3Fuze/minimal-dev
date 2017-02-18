@@ -1,8 +1,11 @@
 {
   "name": "minimal-dev",
   "version": "1.0.0",
+  "private": true,
   "keywords": [
-    "minimal"
+    "minimal",
+    "development",
+    "environment"
   ],
   "description": "Minimal development environment",
   "main": "index.js",
