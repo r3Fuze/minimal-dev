@@ -15,7 +15,8 @@
 > [yarn](https://yarnpkg.com/en/docs/install) is required. (or is it?)
 
 ```sh
-$ yarn install
+# Install dependencies
+$ yarn
 ```
 
 # Getting Started
@@ -25,6 +26,10 @@ $ yarn install
 ## Usage
 
 > Tell contributors how to use it.
+
+## Contributing
+
+> Something about commitizen
 
 ## License
 MIT © [Morten Lindhardt](https://github.com/r3fuze)
