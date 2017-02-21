@@ -31,5 +31,12 @@ $ yarn
 
 > Something about commitizen
 
+```sh
+# Add changed files
+$ git add -A
+# Create commit message with commitizen
+$ npm run commit
+```
+
 ## License
 MIT © [Morten Lindhardt](https://github.com/r3fuze)

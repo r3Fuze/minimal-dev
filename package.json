@@ -27,6 +27,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
+    "clone": "^2.1.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
