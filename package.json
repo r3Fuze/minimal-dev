@@ -24,10 +24,12 @@
     "precommit": "xo && ava",
     "build": "cross-env BABEL_ENV=production placeholder-build",
     "report": "nyc report --reporter=html",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "codecov": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "dependencies": {
     "clone": "^2.1.0",
+    "codecov": "^1.0.1",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
