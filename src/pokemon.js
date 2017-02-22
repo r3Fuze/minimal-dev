@@ -51,3 +51,7 @@ export const addCustom = name => {
 
     return data
 }
+
+export const untestedFunction = name => {
+    console.log(`Hello, ${name}`)
+}
