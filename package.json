@@ -89,6 +89,9 @@
     "ava"
   ],
   "nyc": {
+    "include": [
+      "src/**/*.js"
+    ],
     "check-coverage": true,
     "lines": 90,
     "statements": 90,
