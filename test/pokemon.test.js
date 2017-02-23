@@ -8,7 +8,7 @@ describe("Pokemon module", it => {
         expect(pokemon.all()).to.exist
     })
 
-    describe.only(".all()", it => {
+    describe(".all()", it => {
         it("should be an Array", () => {
             expect(pokemon.all()).to.be.an("array")
             expect(pokemon.all()).to.not.be.empty
