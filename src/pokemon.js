@@ -7,7 +7,7 @@ let data = clone(raw)
 const getRandomItem = uniqueRandom(data)
 
 /**
- * Return all names
+ * Return a list of all names
  * @return {Array} Array of all the names
  */
 export const all = () => data
